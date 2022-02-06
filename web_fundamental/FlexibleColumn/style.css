@@ -1,0 +1,25 @@
+.row {
+    background-color: teal;
+    display: flex;
+}
+
+.col {
+    border: 1px solid black;
+    background-color: teal;
+    height: 50px;
+    flex: 1;
+}
+
+.col-2 {
+    border: 1px solid black;
+    background-color: teal;
+    height: 50px;
+    flex: 2;
+}
+
+.col-3 {
+    border: 1px solid black;
+    background-color: teal;
+    height: 50px;
+    flex: 3;
+}
