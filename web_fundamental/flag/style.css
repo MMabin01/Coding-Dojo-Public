@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+}
+html {
+    width: auto;
+}
+
+.container {
+    min-height: 200px;
+    margin-top: 300px;
+    display: flex;
+    border: 5px solid rgb(15, 14, 14);
+    width: 300px;
+    align-items: center;
+}
+.container-2 {
+    min-height: 200px;
+    margin-top: 300px;
+    margin-bottom: 400px;
+    display: flex;
+    border: 5px solid rgb(15, 14, 14);
+    width: 300px;
+}
+
+.left-color {
+     background-color: rgb(10, 194, 19);
+     width: 100%;
+     min-height: 50px;
+}
+
+.middle-color{
+     background-color: rgb(243, 241, 241);
+     width: 100%;
+     min-height: 50px;
+}
+
+.right-color {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    min-height: 50px;
+}
+
+#circle {
+    background: rgb(248, 4, 4);
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
