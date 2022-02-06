@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="top-nav flexed">
+            <h1>Just<span>Desserts</span></h1>
+            <div class="menu-right flexed">
+                <button onclick="remove(this)" class="btn">Join</button>
+                <button>Login</button>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- search bar -->
+    <div class="container2 flexed">
+        <div class="input"><input type="search" placeholder="tiramisu">
+            <button onclick="tiramisu()" class="btn2">Go</button>
+        </div>
+        <div>
+            <img class="img1" src="./img/cake.png" alt="Cake">
+            <p>Cake</p>
+        </div>
+        <div>
+            <img class="img1" src="./img/cookie.png" alt="Cookies">
+            <p>Cookies</p>
+        </div>
+        <div>
+            <img class="img1" src="./img/ice-cream.png" alt="Ice Cream">
+            <p>Ice Cream</p>
+        </div>
+        <div>
+            <img class="img1" src="./img/pie.png" alt="Pie">
+            <p>Pie</p>
+        </div>
+    </div>
+    <!-- end search bar -->
+    <!-- main -->
+    <div class="container3 flexed2">
+        <div class="main">
+            <div class="mar">
+                <h1 class="recipe">Recipe of the day</h1>
+                <img src="img/orange-tart.jpg" alt="tart">
+                <div class="flex">
+                    <p>Orange Tea Jelly Tart<br>
+                        By:<span class="span2">Yuripiano</span></p>
+                    <div>
+                        <span class="span2" id="clicks">0</span>
+                        <img class="img3" onclick="likes()" src="img/heart.png" alt="heart">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main2">
+            <h1 class="p2">Recommened for you:</h1>
+            <div class="mar">
+                <img class="img2" src="img/macarons.jpg" alt="macarons">
+                <div class="flex">
+                    <p>Macarons<br>By:<span class="span2">EmilieW</span></p>
+                    <div>
+                        <span class="span2" id="clicks1">0</span>
+                        <img class="img3" onclick="likes1()" src="img/heart.png" alt="heart">
+                    </div>
+                </div>
+            </div>
+            <div class="mar">
+                <img class="img2" src="img/creme-brulee.jpg" alt="creme-brulee">
+                <div class="flex">
+                    <p>Crème Brûlée<br>By: <span class="span2">Marisa</span></p>
+                    <div>
+                        <span class="span2" id="clicks2">0</span>
+                        <img class="img3" onclick="likes2()" src="img/heart.png" alt="heart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
+    <script src="script.js"></script>
+</body>
+
+</html>

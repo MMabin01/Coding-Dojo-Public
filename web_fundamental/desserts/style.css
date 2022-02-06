@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+header {
+    min-height: 50px;
+    width: 70%;
+    background-color: rgb(66, 65, 65);
+    margin: 0 auto;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    padding: 5px;
+    background-color: rgb(29, 75, 182);
+    border: .3rem solid black;
+    box-shadow: 5px 5px 5px black;
+    width: 70px;
+}
+
+.btn {
+    color: black;
+    padding: 5px;
+    background-color: orange;
+    border: .3rem solid black;
+    box-shadow: 5px 5px 5px black;
+    width: 70px;
+}
+
+.top-nav {
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/* end nav */
+
+/* search bar */
+.container2 {
+    background-color: rgb(240, 206, 161);
+    min-height: 175px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+}
+
+p {
+    margin-top: 15px;
+    padding: 40px;
+}
+
+input {
+    min-height: 50px;
+    width: 350px;
+    border: .3rem solid black;
+}
+
+.img1 {
+    border-radius: 50%;
+    background-color: white;
+    width: 125px;
+}
+
+.menu-right {
+    min-height: 50px;
+}
+/* end search bar */
+
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flexed2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+span {
+    color: orange;
+}
+
+/* main */
+
+.container3 {
+    min-height: 800px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 15px;
+}
+
+.main {
+    background-color: whitesmoke;
+    min-height: 60px;
+    flex: 2;
+}
+
+.main2 {
+    min-height: 60px;
+    flex: 1;
+}
+
+.img3 {
+    width: 40px;
+    margin-right: 80px;
+}
+
+.p2 {
+    border-bottom: 5px solid black;
+    padding: 10px;
+}
+
+.recipe {
+    text-align: center;
+    color: rgb(6, 153, 226);
+    padding: 50px;
+}
+
+
+.span2 {
+    color: rgb(14, 151, 236);
+}
+
+.mar {
+   margin: 0 auto;
+   width: fit-content;
+   padding: 30px;
+}
+/* end main */
